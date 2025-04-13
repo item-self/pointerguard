@@ -1,0 +1,18 @@
+[package]
+name = "pointerguard"
+version = "0.1.0"
+edition = "2021"
+license = "MIT"
+keywords = ["reverse-engineering", "pointer", "encryption", "pointers", "encrypt"]
+description = "Pointer encryption library in rust."
+repository = "https://github.com/item-self/pointerguard"
+homepage = "https://github.com/item-self/pointerguard"
+documentation = "https://docs.rs/pointerguard"
+readme = "README.md"
+
+[dependencies]
+rand = "0.9.0"
+
+[dev-dependencies]
+pretty_assertions = "1"
+
