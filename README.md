@@ -1,6 +1,12 @@
 # pointerguard
 Pointer encryption library in rust.
 
+# Usage
+```toml
+[dependencies]
+pointerguard = "0.1.1"
+```
+
 ```rust
 /// Example player struct.
 struct Player {
